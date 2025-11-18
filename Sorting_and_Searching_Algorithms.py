@@ -174,21 +174,21 @@ end = time.perf_counter()
 time_difference = end - start
 print(time_difference)
 
-# start = time.perf_counter()
-# linear_search(name)
-# end = time.perf_counter()
-# time_difference = end - start
-# print(time_difference)
+start = time.perf_counter()
+linear_search(name)
+end = time.perf_counter()
+time_difference = end - start
+print(time_difference)
 
-# start = time.perf_counter()
-# hash_search(name)
-# end = time.perf_counter()
-# time_difference = end - start
-# print(time_difference)
+start = time.perf_counter()
+hash_search(name)
+end = time.perf_counter()
+time_difference = end - start
+print(time_difference)
 
-# bubble_sort()
-# start = time.perf_counter()
-# binary_search(name)
-# end = time.perf_counter()
-# time_difference = end - start
-# print(time_difference)
+bubble_sort()
+start = time.perf_counter()
+binary_search(name)
+end = time.perf_counter()
+time_difference = end - start
+print(time_difference)
